@@ -1,0 +1,313 @@
+@font-face {
+    font-family: FuentePixel;
+    src: url(../fonts/pixelsix00.ttf);
+}
+
+
+
+
+.fondoNegro{
+	
+	background-image:url(../image/interfaz/FONDOMarcador3.jpg);
+
+}
+
+body { 
+  background: url(../image/interfaz/Fondo2.png) center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.logo{
+	position:relative;
+	margin-top:3px;
+	margin-left:14%;	
+}
+
+#boton{
+	background-image:url(../image/interfaz/start.gif);
+	background-color: transparent;
+    border: none;
+    outline: none;
+	margin-top:1%;
+	margin-left:40%;
+	width: 270px;
+	height: 97px;
+	
+}
+
+img[alt=logotipo]{
+	width:700px;
+	height:auto;
+	margin-left: 12%;
+	margin-top: -1%;
+	
+}
+
+
+.contenedorPlayers{
+	width:100%;
+	height:300px;
+	margin-top:2%;
+
+	
+}
+
+
+.players{
+	float:left;
+	
+}
+
+input[name="player2"]
+{
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+	position: absolute;
+	margin-left: 267px;
+	margin-top: 133px;
+	width: 317px;
+	height: 80px;
+	color:#FFF;
+	text-align:center;
+	font-size:35px;
+	font-family:"FuentePixel";
+}
+
+input[name="player1"]
+{
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+	position: absolute;
+	margin-left: 267px;
+	margin-top: 133px;
+	width: 317px;
+	height: 80px;
+	color:#FFF;
+	text-align:center;
+	font-size:35px;
+	font-family:"FuentePixel";
+
+
+}
+
+#conteneddorCasillas{
+	position:relative;
+	margin-left:23.6%;
+	width:769px;
+	margin-top: 1%;
+
+	
+}
+.capasJuego{
+	background-image:url(../image/interfaz/cuadradotapar3.jpg);
+	width:70px;
+	height:70px;
+	float:left;
+	
+	
+}
+.rot0 {
+	float:left;
+	width:70px;
+	height:70px;
+	-moz-transform: rotate(0deg);
+
+
+}
+.rot90 {
+	float:left;
+	width:70px;
+	height:70px;
+	-moz-transform: rotate(90deg);
+
+
+}
+.rot180 {
+	float:left;
+	width:70px;
+	height:70px;
+	-moz-transform: rotate(180deg);
+
+
+
+}
+.rot270 {
+	float:left;
+	width:70px;
+	height:70px;
+	-moz-transform: rotate(270deg);
+
+
+}
+
+#jugador1{
+	
+	background-image:url(../image/interfaz/JUGADOR1PNG.png);
+	width: 289px;
+	height: 260px;
+	position: absolute;
+	z-index: 3;
+	margin: 0px;
+}
+
+#contenedorJM2{
+	margin-left:79%;
+	
+}
+
+#contenedorJM1{
+	
+}
+
+
+#jugador2{
+	
+	background-image:url(../image/interfaz/JUGADOR2PNG.png);
+	width: 260px;
+	height: 260px;
+	position: absolute;
+	z-index: 3;
+	margin: 0px;
+}
+
+.seleccionado{
+	color:#CCC;
+}
+
+.noseleccionado{
+	color:#666;
+}
+
+p{
+	text-align:center;
+	width:300px;
+	font-size: 40px;
+	font-family: "FuentePixel";
+	margin-top: 254px;
+	position: absolute;
+	margin-left: -22px;
+	color:#CCC;
+
+		
+}
+#marcadorJ1{
+	
+}
+#marcadorJ2{
+	margin-left:79%;
+
+}
+.marcadorPlayer1{
+	background-image:url(../image/interfaz/marcador.png);	
+	width: 270px;
+	height: 263px;
+	margin-top: 348px;
+	position: absolute;
+}
+
+.marcadorPlayer2{
+	background-image:url(../image/interfaz/marcador.png);
+	width: 270px;
+	height: 263px;
+	position: absolute;
+	margin-top: 348px;
+}
+
+
+#puntuacionP1{
+	width: 112px;
+	text-align:center;
+	font-size: 90px;
+	font-family: "FuentePixel";
+	position: absolute;
+	margin-top: 400px;
+	margin-left: 6%;
+	color:#CCC;
+
+}
+
+#puntuacionP2{
+	width: 112px;
+	text-align:center;
+	font-size: 90px;
+	font-family: "FuentePixel";
+	position: absolute;
+	margin-top: 400px;
+	margin-left: 6%;
+	color:#CCC;
+
+}
+
+
+.explo{
+	width:106px;
+	height:96px;
+	position:absolute;
+
+}
+
+.nombreGanador{
+	width: 600px;
+	text-align: center;
+	font-size: 64px;
+	margin-left: 11%;
+	position: absolute;
+	font-family: "FuentePixel";
+	color: #CCC;
+	margin-top: 37%;
+
+}
+
+.capaGanador{
+    width: 775px;
+    height: 622px;
+    background-image: url(../image/interfaz/exploGanador.gif);
+    margin-left: 21%;
+    position: absolute;
+    margin-top:7%;
+}
+
+
+.ganadorJugador1{
+	background-image: url(../image/interfaz/WinP1.gif);
+	width: 300px;
+	height: 260px;
+	margin-left: 41%;
+	margin-top: 9%;
+	position: absolute;
+}
+
+.ganadorJugador2{
+	
+	background-image: url(../image/interfaz/WinP2.gif);
+	width: 300px;
+	height: 260px;
+	margin-left: 38%;
+	margin-top: 9%;
+	position: absolute;
+		
+}
+
+.empate{
+	width: 775px;
+    height: 622px;
+    background-image:url(../image/interfaz/botonEmpate.png);
+    margin-left: 21%;
+    position: absolute;
+    margin-top:7%;	
+}
+
+.reiniciar{
+	width: 213px;
+	height: 105px;
+	background-image: url(../image/interfaz/reiniciar2.png);
+	margin-left: 26%;
+	position: absolute;
+	margin-top: 43%;
+}

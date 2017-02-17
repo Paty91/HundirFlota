@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>BattleSguip</title>
+<link href="estilos/estilos.css" rel="stylesheet" type="text/css" />
+<link href="estilos/magic.css" rel="stylesheet" type="text/css" />
+
+
+<script type="text/javascript" src="js/interfaz.js"></script><!--Enlace externo JavaScript-->
+<script type="text/javascript" src="js/game.js"></script><!--Enlace externo JavaScript-->
+<script type="text/javascript" src="js/comprobaciones.js"></script><!--Enlace externo JavaScript-->
+<script type="text/javascript" src="js/puntuacion.js"></script><!--Enlace externo JavaScript-->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+
+<div id="contenedorJM1"></div>
+<div id="contenedorJM2"></div>
+<div id="marcadorJ1"></div>
+<div id="marcadorJ2"></div>
+
+
+<header class="logo">
+
+<img src="image/interfaz/logo.png" alt="logotipo" onclick="start()"/>
+
+</header>
+<input type="button" id="boton" onclick="start()"/>
+<div id="conteneddorCasillas"></div>
+
+<div class="contenedorPlayers">
+<div class="players">
+<input  id="p1" type="text" name="player1" onmouseover="animarPlayer1()"/>
+<img id="player1" src="image/interfaz/Player1.png" onmouseover="this.src='image/interfaz/Player1.gif';" onmouseout="this.src='image/interfaz/Player1.png';"/>
+</div>
+
+<div>
+<input id="p2" type="text" name="player2" onmouseover="animarPlayer2()"/>
+<img id="player2" src="image/interfaz/Player2.png" onmouseover="this.src='image/interfaz/Player2.gif';" onmouseout="this.src='image/interfaz/Player2.png';"/>
+</div>
+
+</div>
+</body>
+
+
+
+<script>
+
+
+setTimeout(function(){
+    $('.logo').addClass('magictime swashIn');
+});
+</script>
+</html>
